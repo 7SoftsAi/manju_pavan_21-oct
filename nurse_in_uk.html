@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Labsky - Laboratory HTML Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Red+Rose:wght@600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid py-2 d-none d-lg-flex">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <small class="me-3"><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</small>
+                    <small class="me-3"><i class="fa fa-clock me-2"></i>Mon-Sat 09am-5pm, Sun Closed</small>
+                </div>
+                <nav class="breadcrumb mb-0">
+                    <a class="breadcrumb-item small text-body" href="index.html">Home</a>
+                    <a class="breadcrumb-item small text-body" href="about.html">About Us</a>
+                    <a class="breadcrumb-item small text-body" href="nursing_Overseas.html">Nursing Overseas</a>
+                    <a class="breadcrumb-item small text-body" href="team.html">Hospital Solutions</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Brand Start -->
+    <div class="container-fluid bg-primary text-white pt-4 pb-5 d-none d-lg-flex">
+        <div class="container pb-2">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex">
+                    <i class="bi bi-telephone-inbound fs-2"></i>
+                    <div class="ms-3">
+                        <h5 class="text-white mb-0">Call Now</h5>
+                        <span>+012 345 6789</span>
+                    </div>
+                </div>
+                <a href="index.html" class="h1 text-white mb-0">Lab<span class="text-dark">sky</span></a>
+                <div class="d-flex">
+                    <i class="bi bi-envelope fs-2"></i>
+                    <div class="ms-3">
+                        <h5 class="text-white mb-0">Mail Now</h5>
+                        <span>info@example.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Brand End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
+                <a href="index.html" class="navbar-brand d-lg-none">
+                    <h1 class="text-primary m-0">Lab<span class="text-dark">sky</span></h1>
+                </a>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link ">Home</a>
+                        <a href="nurse_in_uk.html" class="nav-item nav-link active">Be a nurse in UK</a>
+                        <a href="nurse_in_USA.html" class="nav-item nav-link">Be a nurse in USA</a>
+                        <a href="team.html" class="nav-item nav-link">Hospital Solutions</a>
+                        <!-- <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu bg-light m-0">
+                                <a href="feature.html" class="dropdown-item">Features</a>
+                                <a href="team.html" class="dropdown-item">Our Team</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="appoinment.html" class="dropdown-item">Appoinment</a>
+                                <a href="404.html" class="dropdown-item">404 Page</a>
+                            </div>
+                        </div> -->
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <div class="ms-auto d-none d-lg-flex">
+                        <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center py-5 mt-4">
+            <h1 class="display-2 text-white mb-3 animated slideInDown">Be a nurse in UK</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                    <!-- <li class="breadcrumb-item" aria-current="page">404 Error</li> -->
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- 404 Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <h1 style="text-align: center;">Why Choose Global Nurse Force</h1>
+            <div class="row g-0 feature-row">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="feature-item border h-100 p-5">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-hospital text-dark"></i> <!-- Changed icon -->
+                        </div>
+                        <h5 class="mb-3">NHS & Private Hospitals
+                            Across the UK</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="feature-item border h-100 p-5">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-piggy-bank text-dark"></i> <!-- Changed icon -->
+                        </div>
+                        <h5 class="mb-3">No Placement Or
+                            Processing Fees</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="feature-item border h-100 p-5">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-journal-text text-dark"></i> <!-- Changed icon -->
+                        </div>
+                        <h5 class="mb-3">Free Training
+                            For CBT & OSCE</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="feature-item border h-100 p-5">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-file-earmark-check text-dark"></i> <!-- Changed icon -->
+                        </div>
+                        <h5 class="mb-3">Free Visa Application
+                            Support</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="feature-item border h-100 p-5">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-airplane text-dark"></i> <!-- Changed icon -->
+                        </div>
+                        <h5 class="mb-3">Free Flight
+                            To The UK</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="feature-item border h-100 p-5">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-taxi-front text-dark"></i> <!-- Changed icon -->
+                        </div>
+                        <h5 class="mb-3">Free Airport
+                            Pickup</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="feature-item border h-100 p-5">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-house-door text-dark"></i> <!-- Changed icon -->
+                        </div>
+                        <h5 class="mb-3">Free Temporary
+                            Accommodation</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="feature-item border h-100 p-5">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-people text-dark"></i> <!-- Changed icon -->
+                        </div>
+                        <h5 class="mb-3">Free Relocation
+                            Support</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 404 End -->
+
+    <!-- start -->
+    <div class="container benefit-container">
+        <h1>Working as a Nurse in the UK NHS</h1>
+        <div class="d-flex flex-wrap justify-content-center benefit-row">
+            <div class="benefit-item">
+                <div class="benefit-icon">💷</div>
+                <div class="benefit-title">£28,407 - £34,581</div>
+                <div class="benefit-description">Basic pay for a registered nurse</div>
+            </div>
+            <div class="benefit-item">
+                <div class="benefit-icon">🌙</div>
+                <div class="benefit-title">Night & Weekend Pay</div>
+                <div class="benefit-description">Extra payments for  weekends</div>
+            </div>
+            <div class="benefit-item">
+                <div class="benefit-icon">🏖️</div>
+                <div class="benefit-title">Paid Leave</div>
+                <div class="benefit-description">27 days rising to 33 days + 8 bank holidays</div>
+            </div>
+            <div class="benefit-item">
+                <div class="benefit-icon">🏦</div>
+                <div class="benefit-title">NHS Pension Scheme</div>
+                <div class="benefit-description">Access to the generous NHS pension</div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .benefit-container {
+            text-align: center;
+            padding: 50px 0;
+        }
+        .benefit-item {
+            border-radius: 50%;
+            border: 2px solid #d9d9d9;
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            width: 200px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .benefit-icon {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .benefit-title {
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .benefit-description {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        /* Mobile responsive styles */
+        @media (max-width: 768px) {
+            .benefit-row {
+                flex-direction: column;
+            }
+            .benefit-item {
+                width: 180px; /* Bigger circles in mobile */
+                height: 180px; /* Bigger circles in mobile */
+                margin: 15px auto;
+                padding: 15px;
+            }
+            .benefit-title {
+                font-size: 1rem; /* Slightly smaller font */
+            }
+            .benefit-description {
+                font-size: 0.9rem; /* Slightly smaller font */
+            }
+        }
+
+        @media (max-width: 576px) {
+            .benefit-item {
+                width: 200px; /* Bigger circles for small screens */
+                height: 200px;
+                padding: 20px;
+            }
+            .benefit-icon {
+                font-size: 3rem; /* Larger icons for clarity */
+            }
+            .benefit-title {
+                font-size: 1.1rem;
+            }
+            .benefit-description {
+                font-size: 1rem;
+            }
+        }
+    </style>
+
+    <!-- End -->
+
+
+    <!-- start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-6 mb-4">Minimum Criteria to Enter Our Program
+                        </h1>
+                        
+                    <p>Registered Nurse</p>
+                    <p class="mb-4">Current Nursing License</p>
+                    <p class="mb-4">6 Months Of Experience (Preferred)</p>
+                    <p class="mb-4">English Language Proficiency:</p>
+                    <p>IELTS with a minimum score of 7 in reading, speaking and listening and 6.5 in writing or OET with minimum grade of B in reading, speaking and listening and C+ in writing</p>
+                </div>
+            </div>  
+        </div>
+    </div>
+    
+
+    <!-- End -->
+
+
+    <!-- start -->
+    <div class="container-fluid container-team py-5">
+        <div class="container pb-5">
+            <div class="row g-5 align-items-center mb-5">
+                <div class="col-md-6 wow fadeIn" data-wow-delay="0.3s">
+                    <!-- <img class="img-fluid w-100" src="img/team-1.jpg" alt=""> -->
+                </div>
+                <div class="col-md-6 wow fadeIn" data-wow-delay="0.5s">
+                   
+                    
+                    <!-- <div class="d-flex">
+                        <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-youtube"></i></a>
+                    </div> -->
+                </div>
+            </div>
+            <div class="row g-4">
+                <h1 style="text-align: center;">BECOMING A NURSE IN THE UK</h1>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <!-- <img class="img-fluid w-100" src="img/team-2.jpg" alt=""> -->
+                            <!-- <div class="team-social">
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            </div> -->
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">1. Demonstrate English Language Proficiency</h5>
+                            <span>IELTS with minimum score of 7 in speaking, listening and reading and 6.5 in writing or OET with minimum grade of B in speaking, listening and reading and C+ in writing</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <!-- <img class="img-fluid w-100" src="img/team-3.jpg" alt=""> -->
+                           
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">2. Complete NMC Eligibility & Qualification Application</h5>
+                            <span>Applicant will create online account and complete eligibility and qualification application. NMC will confirm eligibility for registration within 14 days</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <!-- <img class="img-fluid w-100" src="img/team-4.jpg" alt=""> -->
+                            <!-- <div class="team-social">
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            </div> -->
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">3. Take the Computer Based Test (CBT)</h5>
+                            <span>CBT assures the NMC that applicant has the right knowledge and skills to practice nursing in the UK Results are available 48 hours after taking the test</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <!-- <img class="img-fluid w-100" src="img/team-5.jpg" alt=""> -->
+                            <!-- <div class="team-social">
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            </div> -->
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">4. Attend Direct or Online Interview & Secure Job Offer</h5>
+                            <span>Attend Direct or Online Interview & Secure Job Offer
+                                Direct/Online interview arranged by Global Nurse Force. Secure job offer and complete pre-employment checks</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <!-- <img class="img-fluid w-100" src="img/team-5.jpg" alt=""> -->
+                            <!-- <div class="team-social">
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            </div> -->
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">5. Secure Certificate of Sponsorship from Employer</h5>
+                            <span>Employers assign the CoS once the CBT exam is cleared The sponsorship reference number on the CoS is used for the Tier 2 visa application</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <!-- <img class="img-fluid w-100" src="img/team-5.jpg" alt=""> -->
+                            <!-- <div class="team-social">
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            </div> -->
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">6. Submit Tier 2 Health & Care Worker Visa Application</h5>
+                            <span>Applicant will submit their Tier 2 visa application and provide biometric application Visa is generally approved within 3 weeks</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <!-- <img class="img-fluid w-100" src="img/team-5.jpg" alt=""> -->
+                            <!-- <div class="team-social">
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            </div> -->
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">7. Travel to UK</h5>
+                            <span>Global Nurse Force will arrange one way flight to the UK, airport pickup, temporary accommodation and orientation. Collect your Biometric Resident Permit. (BRP)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <!-- <img class="img-fluid w-100" src="img/team-5.jpg" alt=""> -->
+                            <!-- <div class="team-social">
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            </div> -->
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">8. Clear the Objective Structured Clinical Exam (OSCE)</h5>
+                            <span>OSCE will assess applicant’s clinical knowledge. Results emailed within 5 working days from test date.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <!-- <img class="img-fluid w-100" src="img/team-5.jpg" alt=""> -->
+                            <!-- <div class="team-social">
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            </div> -->
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">9. Complete NMC Registration</h5>
+                            <span>Submit health, character and language evidence. NMC will assess the application within 35 days. Receive Registration Number from NMC (PIN).</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <!-- <img class="img-fluid w-100" src="img/team-5.jpg" alt=""> -->
+                            <!-- <div class="team-social">
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            </div> -->
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">10. Work as a Registered Nurse in the UK</h5>
+                            <span>Enjoy and Prosper as a Nursing Professional in the UK</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End -->
+
+
+    <!-- start -->
+
+    <header class="header">
+        <h1>International Nurses Can Help Solve Your Facility’s Nursing Shortage</h1>
+        <p>Our team of professionals will help you to identify the nurses you need and plan ahead for their arrival, ensuring a smooth transition for all parties.</p>
+    </header>
+
+    <section class="recruitment-info">
+        <div class="recruitment-column">
+            <h2>Who We Recruit</h2>
+            <p>Registered Nurses from all specialties including Medical, Surgical, Theatres, Paediatrics, Intensive Care Unit, Coronary Care Unit, Orthopaedics, Gynaecology, Oncology, PICU & NICU.</p>
+            <h3>Skilled, Dedicated & Compassionate Nurses from India & Around the World</h3>
+            <p>Our international nurses are superb caregivers with an equivalent nursing education and recent clinical experience relevant for UK job requirements.</p>
+            <p>Each of our nurses speaks English, is carefully pre-screened, has excellent references, a high level of competence, and outstanding clinical skills.</p>
+        </div>
+
+        <div class="recruitment-column">
+            <h2>Simple Process</h2>
+            <ul>
+                <li>Pre-screening candidates</li>
+                <li>Arranging face-to-face / online interviews</li>
+                <li>Assisting with NMC registration</li>
+                <li>Ensuring nurses receive visas to work in the UK</li>
+                <li>Requesting in-country police checks</li>
+                <li>Collecting references</li>
+                <li>Welcoming nurses at the airport</li>
+                <li>Arranging temporary accommodation</li>
+                <li>Orienting nurses to the local community</li>
+                <li>Arranging OSCE training (if required)</li>
+            </ul>
+        </div>
+
+        <div class="recruitment-column">
+            <h2>No Financial Risk</h2>
+            <p>Recruiting through Global Nurse Force poses no financial risk since you’ll only be billed for our services after your nurses arrive and start working at your facility.</p>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <p>We’re here with the help you need today, tomorrow, and always!</p>
+        <a href="#" class="cta-button">Get in Touch with Us for More Information</a>
+        <div class="buttons">
+            <a href="#" class="action-button">Apply for Jobs</a>
+            <a href="#" class="action-button">Nurse Staffing Requirements</a>
+        </div>
+    </section>
+
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 18px;
+    color: #666;
+}
+
+.recruitment-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.recruitment-column {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.recruitment-column h2 {
+    font-size: 20px;
+    color: #003f5c;
+    margin-bottom: 10px;
+}
+
+.recruitment-column h3 {
+    font-size: 18px;
+    color: #003f5c;
+}
+
+.recruitment-column p, .recruitment-column ul {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li::before {
+    content: "✓";
+    color: #003f5c;
+    margin-right: 10px;
+}
+
+.cta-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #003f5c;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.action-button {
+    padding: 10px 20px;
+    background-color: #004b80;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .recruitment-info {
+        flex-direction: column;
+    }
+
+    .recruitment-column {
+        width: 100%;
+    }
+
+    .header h1 {
+        font-size: 22px;
+    }
+
+    .header p, .recruitment-column p, .recruitment-column ul {
+        font-size: 15px;
+    }
+}
+
+/* Animations */
+.recruitment-column {
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.cta-button, .action-button {
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover, .action-button:hover {
+    background-color:#003f5c;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+    </style>
+
+
+    <!-- End -->
+        
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer position-relative bg-dark text-white-50 py-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-5 py-5">
+                <div class="col-lg-6 pe-lg-5">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="h1 text-primary mb-0">Lab<span class="text-white">sky</span></h1>
+                    </a>
+                    <p class="fs-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.</p>
+                    <p><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</p>
+                    <p><i class="fa fa-phone-alt me-2"></i>+012 345 67890</p>
+                    <p><i class="fa fa-envelope me-2"></i>info@example.com</p>
+                    <div class="d-flex mt-4">
+                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <div class="row g-5">
+                        <div class="col-sm-6">
+                            <h4 class="text-light mb-4">Quick Links</h4>
+                            <a class="btn btn-link" href="">About Us</a>
+                            <a class="btn btn-link" href="">Contact Us</a>
+                            <a class="btn btn-link" href="">Our Services</a>
+                            <a class="btn btn-link" href="">Terms & Condition</a>
+                            <a class="btn btn-link" href="">Support</a>
+                        </div>
+                        <div class="col-sm-6">
+                            <h4 class="text-light mb-4">Popular Links</h4>
+                            <a class="btn btn-link" href="">About Us</a>
+                            <a class="btn btn-link" href="">Contact Us</a>
+                            <a class="btn btn-link" href="">Our Services</a>
+                            <a class="btn btn-link" href="">Terms & Condition</a>
+                            <a class="btn btn-link" href="">Support</a>
+                        </div>
+                        <div class="col-sm-12">
+                            <h4 class="text-light mb-4">Newsletter</h4>
+                            <div class="w-100">
+                                <div class="input-group">
+                                    <input type="text" class="form-control border-0 py-3 px-4" style="background: rgba(255, 255, 255, .1);" placeholder="Your Email Address"><button class="btn btn-primary px-4">Sign Up</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright bg-dark text-white-50 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; <a href="#">Your Site Name</a>. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    <p class="mb-0">Designed by <a href="https://htmlcodex.com">HTML Codex</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
